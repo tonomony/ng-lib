@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { NgCoreLibComponent } from './ng-core-lib.component';
+import { LoadingService } from './services/loading.service';
 
 @NgModule({
   imports: [
   ],
-  declarations: [NgCoreLibComponent],
-  exports: [NgCoreLibComponent]
+  providers: [
+    LoadingService
+  ]
 })
 export class NgCoreLibModule { }
