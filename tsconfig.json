@@ -16,6 +16,16 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-core-lib": [
+        "dist/ng-core-lib",
+        "dist/ng-core-lib"
+      ],
+      "ng-core-lib/*": [
+        "dist/ng-core-lib/*",
+        "dist/ng-core-lib/*"
+      ]
+    }
   }
 }
